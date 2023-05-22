@@ -1,0 +1,33 @@
+Data Type
+    - Numeric : 500, 25.5, 1002
+    - String : "Hello World", "Data Science"
+    - Boolean : TRUE, FALSE, T, F
+    - DATE : "2022-05-03"
+    
+Common Functions
+    - IF()
+    - IFS()
+    - COUNT()
+    - SUM()
+    - AVERAGE()
+    - VLOOKUP()
+    - COUNTIF()
+    - SUMIF()
+    - AVERAGEIF()
+    - FILTER()
+    - SORT()
+    - QUERY() *only in google sheets
+    
+Secret Weapon
+    - REGEXMATH() *only in google sheets
+    - REGEXEXTRACT()
+    - REGEXREPLACE()
+    example: 
+        I love hotdog // REGEXEXRACT(B3, "I love ([a-z]+)") // hotdog
+        I was born in 1997 // REGEXEXRACT(B3, "[0-9]{4}") 1997
+        ฉันชอบกินส้มตำ // REGEXEXRACT(B3, "ฉันชอบกิน ([ก-๙]+)") // ส้มตำ
+    
+Data analytics (Pivot Table)
+    - Dimention : category (Row)
+    - Measures : number (Values)
+    
